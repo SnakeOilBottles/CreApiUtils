@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "CreApiUtils"
+version = "0.0.1"
+authors = [
+  { name="Michael Kahle", email="michael.kahle@yahoo.de" },
+]
+description = "Some general API utilities"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+license = {file = "LICENSE"}
+dependencies = [
+"pandas",
+]
+[project.urls]
+Homepage = "https://github.com/SnakeOilBottles/CreApiUtils"
+Issues = "https://github.com/SnakeOilBottles/CreApiUtils/issues"
+
+
